@@ -5,14 +5,10 @@ global gii dist_des L
 clc;close all; 
 warning('off')
 
-str1='test_data/RemoteSensing/DepthOptical/DO3a.png';   % image pair      
-str2='test_data/RemoteSensing/DepthOptical/DO3b.png';
-str1='test_data/day-night/VisionDN_2_a.png';   % image pair      
-str2='test_data/day-night/VisionDN_2_b.png';
-%str1='test_data/map-optical/pair3-1.jpg';   % image pair      
-%str2='test_data/map-optical/pair3-2.jpg';
-%str1='test_data/depth-optical/pair1-1.jpg';   % image pair      
-%str2='test_data/depth-optical/pair1-2.jpg';
+str1='test_data/pair3-1.png';   % image pair      
+str2='test_data/pair3-2.png';
+str1='test_data/VisionDN_2_a.png';   % image pair      
+str2='test_data/VisionDN_2_b.png';
 
 im1 = im2uint8(imread(str1));
 im2_0 = im2uint8(imread(str2));
